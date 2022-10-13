@@ -1,0 +1,36 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  padding: 8px;
+  width: fit-content;
+  min-width: 350px;
+  background: whitesmoke;
+  border: 1px solid black;
+  row-gap: 4px;
+  border-radius: 2px;
+}
+
+form label {
+  font-size: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 2px;
+}
+
+form input {
+  padding: 8px;
+}
+
+form button {
+  align-self: flex-end;
+  margin-top: 8px;
+  color: white;
+  background-color: rgb(12, 64, 150);
+}
+
+.book-not-found {
+  padding: 16px;
+  color: #bd3333;
+  font-weight: bold;
+}

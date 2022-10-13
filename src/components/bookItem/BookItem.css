@@ -1,0 +1,39 @@
+.update-book {
+  background-color: rgb(12, 64, 150);
+  color: white;
+}
+
+.delete-book {
+  background-color: #bd3333;
+  color: white;
+}
+.book-row {
+  display: flex;
+  position: relative;
+  padding: 4px;
+  margin: 8px;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+}
+
+.books-info {
+  padding-inline: 12px;
+}
+
+.book-actions {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 8px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 4px;
+}
+
+.images img {
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 2px;
+  margin: 4px;
+}

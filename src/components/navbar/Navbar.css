@@ -1,0 +1,50 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  align-items: center;
+  position: relative;
+}
+.nav-left {
+  display: flex;
+  flex-direction: row;
+  padding-inline: 8px;
+}
+
+.nav-item {
+  cursor: pointer;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-inline: 4px;
+  color: gray;
+}
+
+.nav-item-selected {
+  cursor: pointer;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  margin-inline: 4px;
+}
+
+.search-bar {
+  position: absolute;
+  right: 0;
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 4px;
+  align-items: center;
+  margin-inline-end: 8px;
+}
+.search-bar input {
+  padding: 8px;
+}
+
+.search-bar button {
+  background-color: black;
+  color: white;
+}
